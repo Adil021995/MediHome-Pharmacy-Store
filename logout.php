@@ -1,0 +1,1 @@
+<?php require 'config.php';unset($_SESSION['user_id'],$_SESSION['user_name']);session_regenerate_id(true);flash('Logged out.');go('/MediHome/index.php');?>
